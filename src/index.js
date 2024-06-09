@@ -1,5 +1,6 @@
 import { getHomeTitle, getAbout, getHours, getLocation } from './pages/home';
 import { getMenuTitle, getBeverages, getSides, getMains } from './pages/menu';
+import { getContactTitle, getHeadChef, getOwner, getManager } from './pages/contact';
 import './style.css';
 
 const homeButton = document.querySelector(".home");
@@ -25,7 +26,12 @@ menuButton.addEventListener("click", () => {
     container.appendChild(getMains());
 });
 contactButton.addEventListener("click", () => {
-    console.log("contact");
+    container.innerHTML = '';
+
+    container.appendChild(getContactTitle());
+    container.appendChild(getHeadChef());
+    container.appendChild(getOwner());
+    container.appendChild(getManager());
 });
 
 // default page

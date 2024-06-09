@@ -86,12 +86,21 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 p {
     font-size: 1rem;
 }
 
 .menu-item p {
     text-align: left;
+}
+
+.contact p {
+    text-align: left;
+    margin-left: 3rem;
 }
 
 .subsection:nth-child(3) > p,
