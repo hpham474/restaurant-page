@@ -1,4 +1,4 @@
-import { getHomeTitle, getAbout, getHours, getLocation } from './pages/home';
+import { getHomeTitle, getAbout, getHours, getLocation, getImageCredits } from './pages/home';
 import { getMenuTitle, getBeverages, getSides, getMains } from './pages/menu';
 import { getContactTitle, getHeadChef, getOwner, getManager } from './pages/contact';
 import './style.css';
@@ -16,6 +16,7 @@ homeButton.addEventListener("click", () => {
     container.appendChild(getAbout());
     container.appendChild(getHours());
     container.appendChild(getLocation());
+    container.appendChild(getImageCredits());
 });
 menuButton.addEventListener("click", () => {
     container.innerHTML = '';
@@ -39,3 +40,4 @@ container.appendChild(getHomeTitle());
 container.appendChild(getAbout());
 container.appendChild(getHours());
 container.appendChild(getLocation());
+container.appendChild(getImageCredits());

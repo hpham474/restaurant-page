@@ -71,4 +71,18 @@ function getLocation() {
     return location;
 }
 
-export { getHomeTitle, getAbout, getHours, getLocation };
+function getImageCredits() {
+    const imageCredits = document.createElement("div");
+    const pImageCredits = document.createElement("p");
+
+    imageCredits.classList.add("subsection");
+    imageCredits.classList.add("credits");
+
+    pImageCredits.innerHTML = `<a href="https://www.freepik.com/free-photo/abstract-blur-restaurant-coffee-shop-cafe_1135843.htm#query=restaurant%20blur&position=15&from_view=keyword&track=ais_user&uuid=83e5dae8-7f7f-4e91-8f86-42e6ebe0a29f">Image by mrsiraphol</a> on Freepik`;
+
+    imageCredits.appendChild(pImageCredits);
+
+    return imageCredits;
+}
+
+export { getHomeTitle, getAbout, getHours, getLocation, getImageCredits };
