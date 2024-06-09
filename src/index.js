@@ -21,3 +21,9 @@ menuButton.addEventListener("click", () => {
 contactButton.addEventListener("click", () => {
     console.log("contact");
 });
+
+// default page
+container.appendChild(getTitle());
+container.appendChild(getAbout());
+container.appendChild(getHours());
+container.appendChild(getLocation());

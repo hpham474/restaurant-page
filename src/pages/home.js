@@ -23,6 +23,8 @@ function getAbout() {
         natus, possimus qui quasi unde necessitatibus autem consectetur 
         maiores esse. Corrupti sint ad aperiam. Vel, accusamus voluptates esse 
         nostrum architecto ea nisi officia.`;
+
+    about.classList.add("subsection");
     
     about.appendChild(h2About);
     about.appendChild(pAbout);
@@ -60,6 +62,8 @@ function getLocation() {
 
     h2Location.textContent = "Location";
     pLocation.textContent = "1234 Locate Drive, Locationville, Location";
+
+    location.classList.add("subsection");
     
     location.appendChild(h2Location);
     location.appendChild(pLocation);
