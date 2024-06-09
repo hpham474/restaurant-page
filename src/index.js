@@ -3,6 +3,8 @@ const menuButton = document.querySelector(".menu");
 const contactButton = document.querySelector(".contact");
 const container = document.getElementById("content");
 
+import './style.css';
+
 homeButton.addEventListener("click", () => {
     console.log("home");
 });

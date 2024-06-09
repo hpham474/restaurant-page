@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "rich eating";
+    src: url('fonts/rich_eatin-webfont.woff2') format(woff2),
+        url('fonts/rich_eatin-webfont.woff') format(woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "rich eating", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("assets/restraunt.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    justify-content: center;
+    gap: 10rem;
+
+    background-color: #1e293b;
+}
+
+button {
+    padding: 1rem 0;
+
+    font-size: 1.5rem;
+    border-style: solid;
+    border-bottom: none;
+
+    background-color: #64748b;
+}
