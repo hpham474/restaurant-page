@@ -1,11 +1,11 @@
 import { getTitle, getAbout, getHours, getLocation } from './pages/home';
+import './style.css';
 
 const homeButton = document.querySelector(".home");
 const menuButton = document.querySelector(".menu");
 const contactButton = document.querySelector(".contact");
 const container = document.getElementById("content");
 
-import './style.css';
 
 homeButton.addEventListener("click", () => {
     container.innerHTML = '';
