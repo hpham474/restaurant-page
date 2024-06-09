@@ -1,4 +1,4 @@
-function getTitle() {
+function getHomeTitle() {
     const title = document.createElement("div");
     const h1Title = document.createElement("h1");
 
@@ -71,4 +71,4 @@ function getLocation() {
     return location;
 }
 
-export { getTitle, getAbout, getHours, getLocation };
+export { getHomeTitle, getAbout, getHours, getLocation };
